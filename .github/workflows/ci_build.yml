@@ -21,4 +21,4 @@ jobs:
       uses: actions/upload-artifact@v1
       with:
         name: build_test
-        path: build/${{env.BUILD_TYPE}}/build_test
+        path: build/build_test
